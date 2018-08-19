@@ -4,16 +4,16 @@ body{
     line-height:1.5;*/
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
-    marghin:0;
-    background-color:#f4f4f4
+    margin:0;
+    background-color:#f4f4f4;
 }
 
 /*Global*/
 .container{
-    width:80%;
+    width:90%;
     margin:auto;
     overflow:hidden;
-    color:#ffffff
+    color:#ffffff;
 }
 
  ul{
@@ -30,13 +30,19 @@ body{
 }
 
 /*Header*/
+
+header p{
+    font-size: 28px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
 header{
     background:#35424a;
-    colour:#ffffff
+    color:#ffffff;
     padding-top:30px;
     min-height:70px;
-    boarder-bottom:#e8491d 3px solid;
-    
+    border-bottom:#CC1714 5px solid;
 }
 
 header a{
@@ -77,10 +83,11 @@ header a:hover{
 
 /* greetings */
 #greetings{
-    min-height:400px;
+    min-height:450px;
     background:url('../img/greeting.jpg') no-repeat 50% 50%;
     text-align: center;
-    color:#ffffff
+    color:#ffffff;
+    width: 100%;
 }
 
 #greetings h1{
@@ -115,25 +122,37 @@ header a:hover{
 aside#sidebar{
     float:right;
     width:30%;
-    margin-top:10px;
+    margin-top:50px;
 }
 
 /* main-col */
 
 article#main-col{
-    float: left;
-    width: 60%;
-    color: #000000
+    float:left;
+    width:65%;
+    color:#000000
 }
-
 /* 3D Model */
 
-ul#3d-model li{
+ul#greeting li{
     list-style: none;
     padding: 20px;
     border: #cccccc solid 1px;
     margin-bottom: 5px;
     background: #e6e6e6
+}
+
+#main{
+    align-content: center;
+}
+
+/*button*/
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 footer{
@@ -171,4 +190,3 @@ footer p{
         margin-top: 40px;
     }
 }
-
